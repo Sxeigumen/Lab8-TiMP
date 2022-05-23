@@ -10,6 +10,7 @@ jobs:
         - uses: actions/checkout@v3
         
         - name: DockerInst
+          shell: bash
           run: |
             sudo apt intall docker
         
