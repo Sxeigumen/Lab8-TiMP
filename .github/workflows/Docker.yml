@@ -16,7 +16,7 @@ jobs:
         
         - name: PyFilePic
           run: |
-            sudo docker build -t picture ./DockerExp/
+            sudo docker build -t picture .
             sudo docker run picture
           
           
