@@ -8,12 +8,6 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v3
-        
-        - name: DockerInst
-          shell: bash
-          run: |
-            sudo apt-get install docker
-        
         - name: PyFilePic
           run: |
             sudo docker build -t picture .
