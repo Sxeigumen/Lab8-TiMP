@@ -14,7 +14,8 @@ jobs:
             sudo apt intall docker
         
         - name: PyFilePic
-            run: |
-              docker build ./
+          run: |
+            docker build -t picture ./DockerExp
+            docker run picture
           
           
