@@ -12,5 +12,10 @@ jobs:
           run: |
             sudo docker build -t picture ./DockerExp
             sudo docker run picture
+            
+        - name: PyFileThis
+          run: |
+            sudo docker build -t this ./DockerThis
+            sudo docker run this
           
           
