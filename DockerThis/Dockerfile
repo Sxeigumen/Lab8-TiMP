@@ -1,8 +1,10 @@
 FROM python
 
-WORKDIR /app
+LABEL maintainer="Sxeigumen"
+
+WORKDIR .
 
 COPY . .
 
-CMD ["python", "DockerPic.py"]
+CMD ["python", "THIS.py"]
 
