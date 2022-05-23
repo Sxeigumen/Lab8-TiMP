@@ -12,11 +12,11 @@ jobs:
         - name: DockerInst
           shell: bash
           run: |
-            sudo apt-get install docker
+            sudo apt-get install ./docker-desktop-<version>-<arch>.deb
         
         - name: PyFilePic
           run: |
-            docker build -t picture ./DockerExp
+            docker build -t picture ./DockerExp/
             docker run picture
           
           
