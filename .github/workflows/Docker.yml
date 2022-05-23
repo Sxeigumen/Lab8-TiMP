@@ -12,7 +12,7 @@ jobs:
         - name: DockerInst
           shell: bash
           run: |
-            sudo apt-get intall docker
+            sudo apt-get install docker
         
         - name: PyFilePic
           run: |
