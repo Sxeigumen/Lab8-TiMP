@@ -10,7 +10,7 @@ jobs:
         - uses: actions/checkout@v3
         - name: PyFilePic
           run: |
-            sudo docker build -t picture .
+            sudo docker build -t picture ./DockerExp
             sudo docker run picture
           
           
