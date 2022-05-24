@@ -50,7 +50,6 @@ docker container ls -a -s
 
 ```
 -t
--rm
 ps -a 
 -s
 ```
