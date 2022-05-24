@@ -43,6 +43,7 @@ rmi
 docker login
 docker version
 docker system prune
+docker container ls -a -s
 ```
 
 ## Флаги
